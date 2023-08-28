@@ -123,6 +123,11 @@ class TipManager {
         setTimeout(showItem, 0)
     }
 
+    submitTip(stepTourProps) {
+        stepTourProps.closeAction();
+        this.closeTip()
+    }
+
     closeTip() {
         this.tipProvider.closeTip()
     }
