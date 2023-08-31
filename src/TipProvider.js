@@ -482,17 +482,10 @@ const styles = StyleSheet.create({
   actions: {
     flexDirection: 'row',
     marginTop: 10,
-    justifyContent: 'flex-end'
-  },
-  actionBtn: {
-    padding: 10,
-    marginBottom: -10
+    justifyContent: 'space-between'
   },
   actionBtnLabel: {
     fontSize: 16,
     fontWeight: 'bold'
   },
-  prev: {
-    marginRight: 10
-  }
 })
