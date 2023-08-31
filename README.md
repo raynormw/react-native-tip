@@ -201,14 +201,15 @@ You can set a default style for all your tips with the following:
 <br/><br />
 
 ## TipStep Props
-| Property   | Type         | Description                                                                                            |
-| ---------- | ------------ | ------------------------------------------------------------------------------------------------------ |
-| id         | `string`     | Current tip id, `required`                                                                             |
-| prevId     | `string`     | Previous tip id, `optional`                                                                            |
-| nextId     | `string`     | Next tip id, `optional`                                                                                |
-| delay      | `number`     | Timeout before triggering the tip change to next or previous one.                                      |
-| prevAction | `() => void` | Action to be executed right before `Prev` button is pressed. Use it with `delay` prop for async tasks. |
-| nextAction | `() => void` | Action to be executed right before `Next` button is pressed. Use it with `delay` prop for async tasks. |
+| Property    | Type         | Description                                                                                            |
+| ----------- | ------------ | ------------------------------------------------------------------------------------------------------ |
+| id          | `string`     | Current tip id, `required`                                                                             |
+| prevId      | `string`     | Previous tip id, `optional`                                                                            |
+| nextId      | `string`     | Next tip id, `optional`                                                                                |
+| delay       | `number`     | Timeout before triggering the tip change to next or previous one.                                      |
+| prevAction  | `() => void` | Action to be executed right before `Prev` button is pressed. Use it with `delay` prop for async tasks. |
+| nextAction  | `() => void` | Action to be executed right before `Next` button is pressed. Use it with `delay` prop for async tasks. |
+| closeAction | `() => void` | Action to be executed right after `Close` button is pressed. Use it with `delay` prop for async tasks. |
 
 <br/><br />
 ## License
